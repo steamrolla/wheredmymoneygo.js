@@ -1,8 +1,8 @@
 {
-  "name": "banking",
-  "description": "The missing Bank API for getting you statement data",
+  "name": "wheredmymoneygo",
+  "description": "Where'd my money go? Check that bank statement info.",
   "version": "1.0.0",
-  "author": "Christian Sullivan <cs@euforic.co>",
+  "author": "Christopher Hargarten <cphargarten@gmail.com>",
   "keywords": [
     "banking",
     "ofx",
@@ -11,7 +11,7 @@
     "quickbooks"
   ],
   "private": false,
-  "homepage": "http://euforic.github.com/banking.js",
+  "homepage": "http://github.com/steamrolla/wheredmymoneygo.js",
   "dependencies": {
     "debug": "^2.2.0",
     "superagent": "^1.4.0",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/euforic/banking.js.git"
+    "url": "http://github.com/steamrolla/wheredmymoneygo.js.git"
   },
   "main": "lib/banking.js",
   "scripts": {
