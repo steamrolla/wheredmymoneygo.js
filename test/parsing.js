@@ -1,6 +1,7 @@
 var Banking = require('..')
   , data = require('./fixtures/data')
-  , mocha = require('mocha');
+  , mocha = require('mocha')
+  , should = require('should');
 
 describe('Banking', function(){
 
