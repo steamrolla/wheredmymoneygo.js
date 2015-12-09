@@ -23,7 +23,7 @@ describe('Banking', function(){
       banking.getStatement({start:20131101, end:20131120}, function (err, res) {
         if(err) done(res)
         res.body.should.be.an.instanceof(Object);
-        res.body.should.have.property('OFX');
+        res.body.should.have.property('ofx');
         done();
       });
     });
@@ -41,7 +41,7 @@ describe('Banking', function(){
 
       Banking.parse(data.ofxString, function (res) {
         res.body.should.be.an.instanceof(Object);
-        res.body.should.have.property('OFX');
+        res.body.should.have.property('ofx');
         done();
       });
     });
